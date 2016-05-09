@@ -97,7 +97,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
+                <a class="navbar-brand home" href="<?php echo esc_url( home_url( '/' ) ); ?>" data-animate-hover="bounce">
                     <img src="<?php echo get_template_directory_uri();?>/img/logo.png" alt="Obaju logo" class="hidden-xs">
                     <img src="<?php echo get_template_directory_uri();?>/img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
                 </a>
@@ -131,63 +131,63 @@
                                         <div class="col-sm-3">
                                             <h5>Clothing</h5>
                                             <ul>
-                                                <li><a href="category.html">T-shirts</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">T-shirts</a>
                                                 </li>
-                                                <li><a href="category.html">Shirts</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Shirts</a>
                                                 </li>
-                                                <li><a href="category.html">Pants</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Pants</a>
                                                 </li>
-                                                <li><a href="category.html">Accessories</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Accessories</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-3">
                                             <h5>Shoes</h5>
                                             <ul>
-                                                <li><a href="category.html">Trainers</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Trainers</a>
                                                 </li>
-                                                <li><a href="category.html">Sandals</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Sandals</a>
                                                 </li>
-                                                <li><a href="category.html">Hiking shoes</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Hiking shoes</a>
                                                 </li>
-                                                <li><a href="category.html">Casual</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Casual</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-3">
                                             <h5>Accessories</h5>
                                             <ul>
-                                                <li><a href="category.html">Trainers</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Trainers</a>
                                                 </li>
-                                                <li><a href="category.html">Sandals</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Sandals</a>
                                                 </li>
-                                                <li><a href="category.html">Hiking shoes</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Hiking shoes</a>
                                                 </li>
-                                                <li><a href="category.html">Casual</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Casual</a>
                                                 </li>
-                                                <li><a href="category.html">Hiking shoes</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Hiking shoes</a>
                                                 </li>
-                                                <li><a href="category.html">Casual</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Casual</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-3">
                                             <h5>Featured</h5>
                                             <ul>
-                                                <li><a href="category.html">Trainers</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Trainers</a>
                                                 </li>
-                                                <li><a href="category.html">Sandals</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Sandals</a>
                                                 </li>
-                                                <li><a href="category.html">Hiking shoes</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Hiking shoes</a>
                                                 </li>
                                             </ul>
                                             <h5>Looks and trends</h5>
                                             <ul>
-                                                <li><a href="category.html">Trainers</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Trainers</a>
                                                 </li>
-                                                <li><a href="category.html">Sandals</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Sandals</a>
                                                 </li>
-                                                <li><a href="category.html">Hiking shoes</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Hiking shoes</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -207,52 +207,52 @@
                                         <div class="col-sm-3">
                                             <h5>Clothing</h5>
                                             <ul>
-                                                <li><a href="category.html">T-shirts</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">T-shirts</a>
                                                 </li>
-                                                <li><a href="category.html">Shirts</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Shirts</a>
                                                 </li>
-                                                <li><a href="category.html">Pants</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Pants</a>
                                                 </li>
-                                                <li><a href="category.html">Accessories</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Accessories</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-3">
                                             <h5>Shoes</h5>
                                             <ul>
-                                                <li><a href="category.html">Trainers</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Trainers</a>
                                                 </li>
-                                                <li><a href="category.html">Sandals</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Sandals</a>
                                                 </li>
-                                                <li><a href="category.html">Hiking shoes</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Hiking shoes</a>
                                                 </li>
-                                                <li><a href="category.html">Casual</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Casual</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-3">
                                             <h5>Accessories</h5>
                                             <ul>
-                                                <li><a href="category.html">Trainers</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Trainers</a>
                                                 </li>
-                                                <li><a href="category.html">Sandals</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Sandals</a>
                                                 </li>
-                                                <li><a href="category.html">Hiking shoes</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Hiking shoes</a>
                                                 </li>
-                                                <li><a href="category.html">Casual</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Casual</a>
                                                 </li>
-                                                <li><a href="category.html">Hiking shoes</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Hiking shoes</a>
                                                 </li>
-                                                <li><a href="category.html">Casual</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Casual</a>
                                                 </li>
                                             </ul>
                                             <h5>Looks and trends</h5>
                                             <ul>
-                                                <li><a href="category.html">Trainers</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Trainers</a>
                                                 </li>
-                                                <li><a href="category.html">Sandals</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Sandals</a>
                                                 </li>
-                                                <li><a href="category.html">Hiking shoes</a>
+                                                <li><a href="<?php echo get_permalink( 43 ); ?>">Hiking shoes</a>
                                                 </li>
                                             </ul>
                                         </div>
